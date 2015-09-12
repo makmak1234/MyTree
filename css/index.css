@@ -1,0 +1,12 @@
+body {
+  background: url("../img/bgr_prim.jpg") repeat;
+  height: 100%; }
+
+div {
+  border-radius: 6px;
+  background-color: black;
+  opacity: 0.2;
+  margin: 61px auto 50px auto;
+  width: 964px;
+  min-height: 918px;
+  z-index: 6; }
