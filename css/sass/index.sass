@@ -1,14 +1,378 @@
 body
  background: url("../img/bgr_prim.jpg") repeat
  height: 100%
+ font-family: arial 
+ font-size: 14px
  //overflow: hidden
 
-div
- border-radius: 6px
- background-color: rgb(0, 0, 0)
- opacity: 0.2
- margin: 61px auto 50px auto
- width: 964px
- min-height: 918px
- z-index: 6
+ //>div
+  //border-radius: 6px
+  //background-color: rgba(0, 0, 0, 0.2)
+  // opacity: 0.2
+  //margin: 61px auto 50px auto
+  //width: 964px
+  //min-height: 918px
+  //overflow: hidden
+  //z-index: 6 
+
+ >div
+  border-radius: 3px
+  background-color: rgb(255, 255, 255)
+  box-shadow: 0 0 0 14px rgba(0,0,0,0.2)
+  margin: 70px auto 59px auto
+  max-width: 947px
+  //min-width: 400px
+  //min-height: 900px
+  opacity: 1 !important
+  overflow: hidden
+  z-index: 7
+
+ .hr
+  height: 1px
+  background-color: #eee
+  margin-top: 25px
+
+.pre-wrapper
+ width: 878 / 947 * 100%//878px
+ margin: 0 auto
+
+header
+ z-index: 8
+ margin-bottom: 25px
+ nav
+  background: url("../img/bg_hdr1.png") top left no-repeat
+  width: 100%
+  min-height: 106px
+  overflow: hidden
+  z-index: 9 
+
+  .bg_top
+   position: absolute
+   max-width: 947px
+   height: 26px
+   background:  url("../img/bg_hdr2.png") top repeat-x
+   opacity: 0.07
+
+  .logotxt
+   font-size: 36px
+   font-family: "VAL"
+   color: rgb(188, 138, 88)
+   line-height: 0.833
+   text-align: left
+   margin-top: 38px 
+   margin-left: 45px
+   display: inline-block
+
+  .pre-wrapper
+   overflow: hidden
+
+   >div
+    padding-bottom: 40px
+    border-bottom: 1px solid #eee
+
+   ul
+    //display: inline-block
+    float: right
+    margin: 47px 30px 0 0//457px
+    line-height: 1
+    z-index: 70
+
+    li
+     display: inline-block
+     //font-size: 14px
+     //font-family: "Arial"
+     //color: rgb(138, 101, 64)
+     line-height: 1
+     text-align: left
+     margin-right: 43px
+     z-index: 70
+
+     a 
+      display: inline-block
+      font-size: 14px
+      font-family: "Arial"
+      color: #bdbdbd
+      line-height: 1
+      text-align: left
+      z-index: 70
+
+    li:last-child
+     margin-right: 0
+
+    li:first-child
+     a
+      color: #ba6540
+
+   ul
+    clear: both
+
+ .pre-wrapper
+  h1
+   font-size: 14px
+   font-family: "Arial"
+   color: rgb(184, 184, 184)
+   line-height: 2.143
+   text-align: left
+   border-bottom: 1px solid #eee
+   padding: 26px 0 26px 0 
+   z-index: 71
+
+   a
+    color: #ba6540
+
+.cl_both
+ clear: both
+
+.content
+ width: 582 / 878 * 100%//582px
+ //min-height: 558px
+ margin-right: 26px 
+ overflow: hidden
+ float: left
+
+ article
+  float: left
+  margin-right: 26px
+  margin-bottom: 17px
+  width: 278px
+  //height: 243px
+  overflow: hidden
+  z-index: 58
+
+  h1
+   font-size: 14px
+   font-family: "Arial"
+   color: rgb(147, 147, 147)
+   line-height: 1.0//2.5
+   text-align: left
+   margin-bottom: 12px
+   z-index: 54
+
+  .desc
+   font-size: 14px
+   font-family: "Arial"
+   color: rgb(189, 189, 189)
+   line-height: 1.5//1.5
+   text-align: left
+   z-index: 46
+
+  .fig
+   //outline: 3px solid #eaeaea
+   //outline-offset: 5px
+   border: 1px solid #eaeaea
+   border-radius: 4px
+   margin: 0 auto 15px auto//0 auto 8px auto
+   background-clip: padding-box
+   background-size: 95%
+   width: 278px
+   height: 162px
+
+ .d1
+  .fig
+   background: url("../img/cont_design1.jpg") center center no-repeat
+   
+ .d2
+  .fig
+   background: url("../img/cont_design2.jpg") center center no-repeat
+
+ .d3
+  .fig
+   background: url("../img/cont_design3.jpg") center center no-repeat
+
+ .d4
+  .fig
+   background: url("../img/cont_design4.jpg") center center no-repeat
+
+ //article:nth-last-child(0)
+   //:after
+   //content: "."
+   //display: table
+   //clear: both
+
+ .btn_wrap
+  overflow: hidden
+  float: right
+  margin-left: 20px
+  margin-top: 10px
+  cursor: pointer
+
+ .btn_portf
+  display: inline-block
+  background: url("../img/bakg_but.jpg") repeat-x
+  border: 1px solid #628727
+  border-radius: 2px
+  outline-top: 1px solid #cada9c
+  outline-left: 1px solid #cada9c
+  outline-offset: 1px
+  font: arial regular 14px
+  line-height: 1.9
+  color: #fff
+  width: 95px
+  text-align: center
+  //clear: both
+  //height: 32px
+
+  //::after
+   //content: "after"
+   //display: block
+   //visibility: hidden
+   //clear: both
+
+ article:nth-child(even)
+  margin-right: 0px
+
+.pre-wrapper
+ .side_bar
+  width: 269 / 878 * 100%
+  //height: 558px 
+  overflow: hidden
+
+  .twit
+   display: block
+   background: url("../img/twitt_ msg.png") top left no-repeat
+   padding-top: 18px
+   padding-left: 18px
+   margin-bottom: 0px//19px
+   color: #b0b0b0
+   cursor: pointer
+   //clear: both
+   //margin-left: 26px
+   overflow: hidden
+
+   .mess
+    display: block
+    width: 188px//183px
+    padding: 0
+    font-family: arial 
+    font-size: 12px
+    line-height: 1.9
+    color: #b0b0b0
+
+   .fol
+    background: url("../img/twitt_bckg.png") right center no-repeat
+    float: right
+    margin-top: 30px
+    padding-right: 50px
+    font-family: arial 
+    font-size: 12px
+    line-height: 3.4
+    cursor: pointer
+
+   .twitt_bck_
+    float: right
+    width: 33px
+    height: 35px
+    background: url("../img/twitt_bckg.png")
+    background-size: cover
+    margin-top: 36px
+    margin-left: 16px
+
+  nav, .contact
+   padding: 0
+   //border-top: 1px solid #eee
+   //border-bottom: 1px solid #eee
+
+   .nav1
+    display: block
+    padding-left: 10px
+
+   ul
+    //padding-left: 10px
+    color: #737373
+    line-height: 3
+    li
+     //padding-left: 10px
+     color: #939393
+     line-height: 2.1
+     border-top: 1px solid #eee
+     margin-top: 0px
+     .nav1
+      cursor: pointer
+     .nav1:hover
+      background-color: #f9f9f9
+    li:nth-last-child(1)
+     border-bottom: 1px solid #eee
+
+  nav
+   margin-bottom: 10px
+
+  .contact
+   ul
+    line-height: 2.1
+    li
+     border: none
+    li:nth-last-child(1)
+     border: none
+
+footer
+ width: 878 / 947 * 100%//878px
+ margin: 0 auto
+ overflow: hidden
+ .copyrite, .flickr, .twitter
+  line-height: 5
+ .copyrite
+  font-size: 12px
+  color: #bdbdbd
+  float: left
+ .flickr, .twitter
+  padding-left: 60px
+  color: #bdbdbd
+  font-size: 12px
+  cursor: pointer
+ .flickr
+  background: url("../img/flickr_foot.png") left center no-repeat
+  float: right
+ .twitter
+  background: url("../img/twitt_foot.png") left center no-repeat
+  margin-left: 30px
+  float: right
+
+
+
+
+
+
+@media (max-width: 946px) 
+ .content
+  width: 100%//582px
+  //height: 558px
+  margin: 0 auto
+  text-align: center
+  overflow: hidden
+  //clear: both
+
+ .pre-wrapper
+  .side_bar
+   width: 269px// / 878 * 100%
+   //height: 558px 
+   clear: both
+   margin: 0 auto
+   overflow: hidden
+
+
+ 
+
+   
+
+ 
+
+
+      
+
+
+
+      
+
+   
+
+
+
+
+
+
+
+
+
+ 
+
 
